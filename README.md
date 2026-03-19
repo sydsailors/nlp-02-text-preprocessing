@@ -93,8 +93,7 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-02-text-preprocessing
+git clone https://github.com/sydsailors/nlp-02-text-preprocessing
 cd nlp-02-text-preprocessing
 code .
 ```
