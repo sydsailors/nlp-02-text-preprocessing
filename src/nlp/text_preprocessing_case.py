@@ -31,7 +31,7 @@ import logging
 from pathlib import Path
 import re
 
-from datafun_toolkit.logger import get_logger, log_header, log_path
+from datafun_toolkit.logger import get_logger, log_header
 import matplotlib.pyplot as plt
 import polars as pl
 
@@ -51,10 +51,10 @@ SCRIPTS_PATH: Path = ROOT_PATH / "scripts"
 log_header(LOG, "NLP")
 LOG.info("START script.....")
 
-log_path(LOG, "ROOT_PATH", ROOT_PATH)
-log_path(LOG, "DATA_PATH", DATA_PATH)
-log_path(LOG, "NOTEBOOKS_PATH", NOTEBOOKS_PATH)
-log_path(LOG, "SCRIPTS_PATH", SCRIPTS_PATH)
+#log_path(LOG, "ROOT_PATH", ROOT_PATH)
+#log_path(LOG, "DATA_PATH", DATA_PATH)
+#log_path(LOG, "NOTEBOOKS_PATH", NOTEBOOKS_PATH)
+#log_path(LOG, "SCRIPTS_PATH", SCRIPTS_PATH)
 
 # ============================================================
 # Section 2. Read the Text Data
